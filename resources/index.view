@@ -1,0 +1,10 @@
+<svg>
+  <rect id="background" />
+  <text id="time" />
+  <text id="heartRate" />
+<!--  <text id="date" />
+  <text id="time" />
+  <image x="5%" y="80%" width="30" height="30" href="heartbeat.png" /><text id="heartRate" />
+  <image x="30%" y="79%" width="35" height="35" href="steps.png" /><text id="Steps" />
+  <image x="68%" y="80%" width="30" height="30" href="calories.png" /><text id="Calory" />-->
+</svg>

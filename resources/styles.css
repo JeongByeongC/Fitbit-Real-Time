@@ -1,0 +1,59 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+.background {
+  viewport-fill: #000000;
+}
+#time {
+  font-size: 100;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+20;
+  fill: white;
+}
+
+#date{
+  font-family: System-Regular;
+  font-size: 30;
+  fill: lightgrey;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 25%;
+}
+
+#heartRate{
+  font-family: System-Regular;
+  font-size: 30;
+  fill: lightgray;
+  text-length: 32;
+  text-anchor: middle;
+  x: 20%+5;
+  y: 80%+25;
+}
+
+#Steps{
+  font-family: System-Regular;
+  font-size: 30;
+  fill: lightgrey;
+  text-length: 32;
+  text-anchor: middle;
+  x: 53%;
+  y: 80%+25;
+}
+
+#Calory{
+  font-family: System-Regular;
+  font-size: 30;
+  fill: lightgrey;
+  text-length: 32;
+  text-anchor: middle;
+  x: 87%;
+  y: 80%+25;
+}
