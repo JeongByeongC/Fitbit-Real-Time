@@ -17,11 +17,11 @@ To address the constraints of a closed ward and the sensitive nature of hospital
    
      Handles data reception and transmission, including:
 
-  + Receiving data from Fitbit and storing it on the Raspberry Pi with the current date.
+     + Receiving data from Fitbit and storing it on the Raspberry Pi with the current date.
 
-  + Transmitting data to the main server using WebSocket protocols.
+     + Transmitting data to the main server using WebSocket protocols.
 
-  + Sending periodic (minute-level) pings to the main server to prevent connected Android devices from entering sleep mode.
+     + Sending periodic (minute-level) pings to the main server to prevent connected Android devices from entering sleep mode.
 
 2. **MainServer/DataProcessor
 
