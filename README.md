@@ -22,19 +22,21 @@ To address the constraints of a closed ward and the sensitive nature of hospital
      + Transmitting data to the main server using WebSocket protocols.
 
      + Sending periodic (minute-level) pings to the main server to prevent connected Android devices from entering sleep mode.
+  
+     + When reciving download signal from the main server, it sends all data to the main server.
 
-2. **MainServer/DataProcessor
+2. **MainServer/Mainserver.py**
 
-Implements server-side processing scripts for:
+      Manages data reception at the main server, including:
 
-Parsing and organizing incoming data.
+      + Receiving data transmitted from multiple Raspberry Pi devices.
 
-Performing basic validations and preparing the data for storage or analysis.
+      + Consolidating and storing the data securely in the main storage server for further processing and analysis.
 
-5. Server/VisualizationTool
+3. **MainServer/downloads_file.py**
 
-Contains tools to:
+      Ensures data integrity by:
 
-Visualize patient data trends over time.
+      + Sending signals to Raspberry Pi devices to request stored data.
 
-Provide actionable insights for clinicians.
+      + Allowing the main server to download any data that might not have been transmitted successfully.
