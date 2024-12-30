@@ -13,7 +13,8 @@ To address the constraints of a closed ward and the sensitive nature of hospital
 + **Main Server**: The Raspberry Pi forwards the collected data to a centralized hospital server for analysis and long-term storage.
 
 ## Code Description
-1. Raspberry Pi/Android_server.js
+1. **Raspberry Pi/Android_server.js**
+   
   Handles data reception and transmission, including:
 
   + Receiving data from Fitbit and storing it on the Raspberry Pi with the current date.
@@ -22,7 +23,7 @@ To address the constraints of a closed ward and the sensitive nature of hospital
 
   + Sending periodic (minute-level) pings to the main server to prevent connected Android devices from entering sleep mode.
 
-4. Server/DataProcessor
+2. **MainServer/DataProcessor
 
 Implements server-side processing scripts for:
 
