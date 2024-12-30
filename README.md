@@ -12,4 +12,4 @@ To address the constraints of a closed ward and the sensitive nature of hospital
 
 + **Main Server**: The Raspberry Pi forwards the collected data to a centralized hospital server for analysis and long-term storage.
 
-## 
+## Code Description
