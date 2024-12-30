@@ -40,3 +40,13 @@ To address the constraints of a closed ward and the sensitive nature of hospital
       + Sending signals to Raspberry Pi devices to request stored data.
 
       + Allowing the main server to download any data that might not have been transmitted successfully.
+  
+4. **MainServer/ping_android.sh**
+
+      Prevents Android devices from entering sleep mode by:
+
+      + Periodically sending ping signals from the server to connected Android devices.
+
+      + Ensuring uninterrupted connectivity for real-time data transmission.
+
+5. **app**
