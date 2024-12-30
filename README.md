@@ -13,3 +13,26 @@ To address the constraints of a closed ward and the sensitive nature of hospital
 + **Main Server**: The Raspberry Pi forwards the collected data to a centralized hospital server for analysis and long-term storage.
 
 ## Code Description
++ RaspberryPi/
+
+Provides the script for:
+
+Relaying data from the intermediate device to the hospital’s main server.
+
+Securely storing data temporarily in the Raspberry Pi before forwarding it.
+
+4. Server/DataProcessor
+
+Implements server-side processing scripts for:
+
+Parsing and organizing incoming data.
+
+Performing basic validations and preparing the data for storage or analysis.
+
+5. Server/VisualizationTool
+
+Contains tools to:
+
+Visualize patient data trends over time.
+
+Provide actionable insights for clinicians.
