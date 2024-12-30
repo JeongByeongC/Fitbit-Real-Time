@@ -49,4 +49,35 @@ To address the constraints of a closed ward and the sensitive nature of hospital
 
       + Ensuring uninterrupted connectivity for real-time data transmission.
 
-5. **app**
+5. **app (그림 추가)**
+      Contains the code for the custom Fitbit watch face designed to:
+
+      + Collect heart rate and accelerometer data at 1Hz.
+
+      + Collect data following the flow illustrated in Figure 2, where data is gathered directly from the Fitbit device and forwarded for further processing.
+
+6. **build**
+
+      Contains the build files required for:
+
+      + Deploying the custom Fitbit watch face to devices.
+  
+      + Ensuring compatibility with the Fitbit development environment and hardware.
+
+7. **companion**
+
+      Defines how the companion application operates, including:
+
+      + Utilizing Fitbit's message API to receive data sent from the Fitbit device.
+
+      + Acting as a Bluetooth-connected intermediary to ensure reliable data transmission.
+
+8. **Common**
+
+      Defines commonly used functions to:
+
+      + Support shared operations across different scripts.
+
+      + Ensure consistency and reduce redundancy in the codebase.
+
+
