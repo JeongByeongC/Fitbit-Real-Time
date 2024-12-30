@@ -15,7 +15,7 @@ To address the constraints of a closed ward and the sensitive nature of hospital
 ## Code Description
 1. **Raspberry Pi/Android_server.js**
    
-  Handles data reception and transmission, including:
+     Handles data reception and transmission, including:
 
   + Receiving data from Fitbit and storing it on the Raspberry Pi with the current date.
 
