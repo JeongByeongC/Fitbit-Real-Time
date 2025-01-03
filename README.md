@@ -3,7 +3,7 @@
 ## Fitbit-Based Health Monitoring System for Closed Hospital Wards
 This repository also includes a custom system developed to collect real-time heart rate and accelerometer data at 1Hz from Fitbit devices. The system is specifically designed for use in closed hospital wards, ensuring secure and localized data collection without external transmission to maintain patient confidentiality.
 
-## System Overview (그림 추가할 것)
+## System Overview
 
 ![무제](https://github.com/user-attachments/assets/4304bbfe-9524-45bc-8e92-2b0db39f6dfc)
 
