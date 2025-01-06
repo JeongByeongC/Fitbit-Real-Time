@@ -53,7 +53,7 @@ To address the constraints of a closed ward and the sensitive nature of hospital
 
       + Ensuring uninterrupted connectivity for real-time data transmission.
 
-5. **app (그림 추가)**
+5. **app**
       Contains the code for the custom Fitbit watch face designed to:
 
       + Collect heart rate and accelerometer data at 1Hz.
